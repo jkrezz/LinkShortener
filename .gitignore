@@ -1,0 +1,35 @@
+# Default ignored files
+/shelf/
+/.idea/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+/build/
+cmake-build-debug/
+/CMakeCache.txt
+/CMakeFiles/
+Makefile
+cmake_install.cmake
+
+*.out
+*.o
+*.a
+*.so
+*.exe
+*.dll
+*.dylib
+/tests
+/link_shortener
+
+*.log
+*.tmp
+*.swp
+*.swo
+
+.idea/
+.vscode/
+*.code-workspace
+
+*.dockerfile.swp

@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  link-shortener:
+    build: .
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./urls.json:/app/urls.json
+    restart: unless-stopped
